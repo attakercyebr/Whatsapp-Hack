@@ -15,6 +15,8 @@
 
 - // Version: 0.3.9308
 
+- // Exploit Author: Gal Weizman
+
 - // Tested On: Mac OS, Windows, iPhone
 
 ## Get a license

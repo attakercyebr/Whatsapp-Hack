@@ -1,7 +1,7 @@
-# ![Locations](https://raw.githubusercontent.com/attakercyebr/Whatsapp-Desktop-session-hijacking-/main/1.jpg) 
+# ![Pic](https://raw.githubusercontent.com/attakercyebr/Whatsapp-Desktop-session-hijacking-/main/1.jpg) 
 
 
-##### Description:
+## Description:
 ----------------------
 - // Title: WhatsApp Desktop 0.3.9308 - Persistent Cross-Site Scripting
 
@@ -17,12 +17,12 @@
 
 - // Tested On: Mac OS, Windows, iPhone
 
-##### Get a license
+## Get a license
 ----------------------
 - 🎁 Totally free for all channel members.
 
 
-##### how to work :
+## how to work :
 ----------------------
 - // step 1: open WhatsApp Web and enter a conversation (Will only work on WhatsApp Web source code as compiled with version 0.3.9308)
 
@@ -38,7 +38,7 @@
 
 - // result: a message should be sent to the victim that once is clicked will execute the payload above
 
-## Usage
+## Code
 ----------------------
 
 ```javascript
@@ -66,12 +66,12 @@ More Innocent text
 
 ```
 
-#####video:
+## video:
 ----------------------
-# ![Locations](https://github.com/attakercyebr/Whatsapp-Hack/blob/main/1.mp4) 
+- 
 
 
-# Visit the following channels and sites for more training and tools:
+## Visit the following channels and sites for more training and tools:
 ----------------------
 - 🔞 https://m4nifest0.com
 - 🔞 https://m4nifest0.group

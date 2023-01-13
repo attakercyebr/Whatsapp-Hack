@@ -68,7 +68,7 @@ More Innocent text
 
 ## video:
 ----------------------
-- 
+- # ![video](https://drive.google.com/file/d/1b9Nk47asoylREdLHGsqO3WlmHxrlkCvg/view) 
 
 
 ## Visit the following channels and sites for more training and tools:

